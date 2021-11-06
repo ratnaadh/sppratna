@@ -22,7 +22,7 @@
   
 
   <div class="half">
-    <div class="bg order-1 order-md-2" style="background-image: url('<?php echo base_url('assets/login/images/bg1.png') ?>');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('<?php echo base_url('assets/login/images/bg2.jpg') ?>');"></div>
     <div class="contents order-2 order-md-1">
 
       <div class="container">
