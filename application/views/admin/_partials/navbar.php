@@ -17,7 +17,7 @@
                                  <img src="<?php echo base_url('assets/admin/images/icon/profile.png') ?>" />
                              </div>
                              <div class="content">
-                                 <a class="js-acc-btn" href="#">Admin</a>
+                                 <a class="js-acc-btn" href="#">User</a>
                              </div>
                              <div class="account-dropdown js-dropdown">
 
