@@ -27,7 +27,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Data yang dihapus tidak akan bisa dikembalikan.</div>
+            <div class="modal-body">Data yang dihapus tidak bisa dikembalikan</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
                 <a id="btn-delete" class="btn btn-danger" href="#">Hapus</a>

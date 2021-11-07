@@ -40,7 +40,7 @@
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                     Edit
                                 </a>
-                                <a class="btn btn-outline-danger" onclick="return confirm('apakah anda ingin menghapus?')" href="<?php echo site_url('admin/siswa/delete/') . $GetR->nisn ?>">
+                                <a class="btn btn-outline-danger" onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini?')" href="<?php echo site_url('admin/siswa/delete/') . $GetR->nisn ?>">
                                     <i class="fa fa-trash" aria-hidden="true"></i>
                                     Hapus
                                 </a>
