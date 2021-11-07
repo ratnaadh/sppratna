@@ -15,31 +15,31 @@
 
                     <li class="active has-sub">
                         <a class="js-arrow" href="<?php echo site_url('admin/overview') ?>">
-                            <i class="fas fa-tachometer-alt"></i>Beranda</a>
+                            <i class="fas fa-home"></i>Beranda</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/spp') ?>">
-                            <i class="fas fa-chart-bar"></i>SPP</a>
+                            <i class="fas fa-money-bill-alt"></i>SPP</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/kompetensi_keahlian') ?>">
-                            <i class="fas fa-chart-bar"></i>Kompetensi Keahlian</a>
+                            <i class="fas fa-list-ul"></i>Kompetensi Keahlian</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/kelas') ?>">
-                            <i class="fas fa-table"></i>Kelas</a>
+                            <i class="fas fa-list-ul"></i>Kelas</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/siswa') ?>">
-                            <i class="far fa-check-square"></i>Siswa</a>
+                            <i class="fas fa-users"></i>Siswa</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/petugas') ?>">
-                            <i class="fas fa-calendar-alt"></i>Petugas</a>
+                            <i class="fas fa-users"></i>Petugas</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('admin/pembayaran') ?>">
-                            <i class="fas fa-calendar-alt"></i>Transaksi Pembayaran</a>
+                            <i class="fas fa-history"></i>Transaksi Pembayaran</a>
                     </li>
 
 

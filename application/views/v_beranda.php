@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="overview-wrap">
-            <h2 class="title-1">overview</h2>
+            <h2 class="title-1">Dashboard</h2>
             <button class="au-btn au-btn-icon au-btn--blue">
 
         </div>
@@ -13,7 +13,7 @@
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
-                        <i class="zmdi zmdi-account-o"></i>
+                        <i class="zmdi zmdi-accounts-outline"></i>
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahSiswa ?></h2>
@@ -31,7 +31,7 @@
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
-                        <i class="zmdi zmdi-shopping-cart"></i>
+                        <i class="zmdi zmdi-accounts-outline"></i>
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahPetugas ?></h2>
@@ -49,7 +49,7 @@
             <div class="overview__inner">
                 <div class="overview-box clearfix">
                     <div class="icon">
-                        <i class="zmdi zmdi-calendar-note"></i>
+                        <i class="zmdi zmdi-format-list-bulleted"></i>
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahKelas ?></h2>
