@@ -17,7 +17,7 @@
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahSiswa ?></h2>
-                        <span>siswa</span>
+                        <span>Siswa</span>
                     </div>
                 </div>
                 <div class="overview-chart">
@@ -35,7 +35,7 @@
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahPetugas ?></h2>
-                        <span>petugas</span>
+                        <span>Petugas</span>
                     </div>
                 </div>
                 <div class="overview-chart">
@@ -53,7 +53,7 @@
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahKelas ?></h2>
-                        <span>kelas</span>
+                        <span>Kelas</span>
                     </div>
                 </div>
                 <div class="overview-chart">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="text">
                         <h2><?php echo $jumlahPembayaran ?></h2>
-                        <span>transaksi pembayaran</span>
+                        <span>Transaksi Pembayaran</span>
                     </div>
                 </div>
                 <div class="overview-chart">
