@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Nov 2021 pada 14.24
+-- Waktu pembuatan: 09 Nov 2021 pada 03.35
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 8.0.2
 
@@ -39,7 +39,9 @@ CREATE TABLE `kelas` (
 
 INSERT INTO `kelas` (`id_kelas`, `nama_kelas`, `id_kk`) VALUES
 (1, 'XII-RPL 2', 1),
-(2, 'XII-TFLM 1', 2);
+(2, 'XII-TFLM 1', 2),
+(5, 'XII TKRO-2', 4),
+(6, 'XII TKJ-2', 3);
 
 -- --------------------------------------------------------
 
@@ -81,8 +83,8 @@ CREATE TABLE `login` (
 
 INSERT INTO `login` (`id_login`, `username`, `password`, `level`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin'),
-(2, 'petugas', 'petugas', 'petugas'),
-(3, 'siswa', 'siswa', 'siswa');
+(2, 'petugas', 'afb91ef692fd08c445e8cb1bab2ccf9c', 'petugas'),
+(3, 'siswa', 'bcd724d15cde8c47650fda962968f102', 'siswa');
 
 -- --------------------------------------------------------
 
@@ -106,7 +108,7 @@ CREATE TABLE `pembayaran` (
 --
 
 INSERT INTO `pembayaran` (`id_pembayaran`, `id_petugas`, `nisn`, `tgl_bayar`, `bulan_bayar`, `tahun_bayar`, `id_spp`, `jumlah_bayar`) VALUES
-(1, 1, '0037916497', '2021-10-13', 'Oktober', '2021', 1, '15000');
+(6, 2, '0037916497', '2021-11-06', 'November', '2021', 2, '20000');
 
 -- --------------------------------------------------------
 
@@ -126,7 +128,7 @@ CREATE TABLE `petugas` (
 --
 
 INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `id_login`, `image`) VALUES
-(1, 'petugas', 2, 'default.jpg');
+(2, 'Mark', 2, 'default.jpg');
 
 -- --------------------------------------------------------
 
@@ -151,7 +153,7 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`nisn`, `nis`, `nama`, `id_kelas`, `alamat`, `no_telp`, `id_spp`, `id_login`, `image`) VALUES
-('0037916497', '19200229', 'Ratna Dewinta Hardian', 1, 'Bogor', '081221723979', 1, 3, 'default.jpg');
+('0037916497', '19200229', 'Ratna Dewinta Hardian', 1, 'Bogor', '0812', 1, 3, 'default.jpg');
 
 -- --------------------------------------------------------
 
@@ -236,7 +238,7 @@ ALTER TABLE `spp`
 -- AUTO_INCREMENT untuk tabel `kelas`
 --
 ALTER TABLE `kelas`
-  MODIFY `id_kelas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_kelas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT untuk tabel `kompetensi_keahlian`
@@ -254,13 +256,13 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT untuk tabel `pembayaran`
 --
 ALTER TABLE `pembayaran`
-  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT untuk tabel `petugas`
 --
 ALTER TABLE `petugas`
-  MODIFY `id_petugas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_petugas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `spp`
