@@ -18,6 +18,7 @@ class Pembayaran extends CI_Controller
         $data['GetPembayaran'] = $this->pembayaran_model->getAll();
         $data['content'] = 'pembayaran/v_pembayaran';
         $this->load->view('admin/overview_view', $data);
+        $this->load->view('v_beranda', $data);
     }
 
     function add()

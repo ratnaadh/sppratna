@@ -121,6 +121,7 @@
 
                         <!-- CONTENT -->
                         <?php $this->load->view($content); ?>
+                        
                         <!-- END CONTENT -->
 
                         <!-- FOOTER -->

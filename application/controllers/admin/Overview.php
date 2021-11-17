@@ -15,6 +15,7 @@ class Overview extends CI_Controller
     public function index()
     {
         $data['content'] = 'v_beranda';
+         $data['GetPembayaran'] = $this->pembayaran_model->getAll();
         $data['jumlahSiswa'] = $this->siswa_model->jumlahAll();
         $data['jumlahPetugas'] = $this->petugas_model->jumlahAll();
         $data['jumlahKelas'] = $this->kelas_model->jumlahAll();

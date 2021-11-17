@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="<?php echo base_url('assets/login/images/favicon.ico');?>">
+
     <link rel="stylesheet" href="<?php echo base_url('assets/login/fonts/icomoon/style.css') ?>">
 
     <link rel="stylesheet" href="<?php echo base_url('assets/login/css/owl.carousel.min.css')?>">
@@ -30,8 +32,8 @@
           <div class="col-md-6">
             <div class="form-block">
               <div class="text-center mb-5">
-              <h3><strong>Selamat Datang</strong></h3>
-              <h6>Silahkan Login Terlebih Dahulu</h6>
+              <h3><strong>WELCOME!</strong></h3>
+              <h6>Login To Continue</h6>
               </div>
 
               <form class="login100-form validate-form" action="<?php echo site_url('login/auth');?>" method="post">
@@ -54,7 +56,7 @@
                   <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
                 </div>
 
-                <input type="submit" value="Log In" class="btn btn-block btn-primary">
+                <input type="submit" value="LOGIN" class="btn btn-block btn-primary">
 
               </form>
             </div>

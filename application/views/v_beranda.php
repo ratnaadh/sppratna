@@ -81,3 +81,44 @@
         </div>
     </div>
 </div>
+
+                                <div class="card bg-light ">
+                                <div class="col-lg-9">
+                                <h2 style="text-align: left; margin-top: 30px;" class="title-1 m-b-25">Transaksi Pembayaran</h2>
+                                <div class="table-responsive table--no-card m-b-40">
+                                    <table class="table table-borderless table-striped table-earning">
+                                    <thead>
+                <tr>
+                    <th style="width: 150px;">Nama Petugas</th>
+                    <th style="width: 50px;">NISN</th>
+                    <th style="width: 50px;">Tanggal Pembayaran</th>
+                    <th style="width: 50px;">Bulan dibayar</th>
+                    <th style="width: 50px;">Tahun dibayar</th>
+                    <th style="width: 200px;">Nominal</th>
+                    <th style="width: 200px;">Jumlah Bayar</th>
+                </tr>
+            </thead>
+                                <tbody>
+                <?php
+                if (!empty($GetPembayaran)) {
+                    foreach ($GetPembayaran as $GetR) {
+                ?>
+                        <tr>
+
+                            <td><?php echo $GetR->nama_petugas; ?></td>
+                            <td><?php echo $GetR->nisn; ?></td>
+                            <td><?php echo $GetR->tgl_bayar; ?></td>
+                            <td><?php echo $GetR->bulan_bayar; ?></td>
+                            <td><?php echo $GetR->tahun_bayar; ?></td>
+                            <td><?php echo $GetR->nominal; ?></td>
+                            <td><?php echo $GetR->jumlah_bayar; ?></td>
+                        </tr>
+                <?php
+                    }
+                }
+                ?>
+            </tbody>
+                                        
+                                    </table>
+                                </div>
+                            </div>
